@@ -4,16 +4,16 @@
 }
 
 
-.home .row .col-6{
+.home .row .col-md-6{
     color: var(--text-color);
 }
 
 
-.home .row .col-6 h5{
+.home .row .col-md-6 h5{
     width: 32%;
     background-color: rgba(128, 128, 128, 0.126);
 }
 
-.home .row .col-6  button{
+.home .row .col-md-6  button{
     background-color: var(--text-color);
 }
