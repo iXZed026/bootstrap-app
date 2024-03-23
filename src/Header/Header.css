@@ -1,0 +1,9 @@
+.navbar-brand {
+    color: var(--text-color);
+    --text-color : #6C55A3;
+    font-weight: bold;
+}
+
+.navbar-nav li a{
+    color: white;
+}
