@@ -23,7 +23,7 @@ export const Header = () => {
   },[])
 
   return (
-    <nav className={scroll ? "navbar navbar-expand-md py-3 fixed-top bg-white" : "navbar navbar-expand-md py-2s"}>
+    <nav className={scroll ? "navbar navbar-expand-md py-3 fixed-top bg-white shadow" : "navbar navbar-expand-md py-2"}>
       <div className="container" style={{width:scroll ? "75%" : ""}}>
         <a className='navbar-brand'><IoRocketOutline />Danyal</a>
         <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-header">

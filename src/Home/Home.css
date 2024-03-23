@@ -13,3 +13,7 @@
     width: 32%;
     background-color: rgba(128, 128, 128, 0.126);
 }
+
+.home .row .col-6  button{
+    background-color: var(--text-color);
+}

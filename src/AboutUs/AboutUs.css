@@ -1,0 +1,23 @@
+#about {
+    height: 100vh;
+}
+
+#about-header h3 {
+    width: 115px;
+    padding: 1% 0;
+    color: var(--text-color);
+    background-color: rgba(128, 128, 128, 0.174);
+}
+
+#about-header p {
+    width: 420px;
+    
+}
+
+#about .row .col-md-6 img{
+    width: 75%;
+}
+
+#about .row .col-md-6 .btn {
+    color: var(--text-color);
+}
