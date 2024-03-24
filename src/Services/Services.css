@@ -1,0 +1,11 @@
+#services {
+    height: 100vh;
+}
+
+#services-header h3{
+    width: 100px;
+    margin: auto;
+    padding: 1% 0;
+    color: var(--text-color);
+    background-color: rgba(128, 128, 128, 0.185);
+}

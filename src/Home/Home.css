@@ -1,19 +1,36 @@
 .home {
     margin-top: 10%;
-    height: 300px;
 }
 
 
-.home .row .col-md-6{
+.home .row .col-md-6 {
     color: var(--text-color);
 }
 
+.home .row .col-md-6 img {
+    width: 420px;
+}
 
-.home .row .col-md-6 h5{
+
+.home .row .col-md-6 h5 {
     width: 32%;
     background-color: rgba(128, 128, 128, 0.126);
 }
 
-.home .row .col-md-6  button{
+.home .row .col-md-6 button {
     background-color: var(--text-color);
+}
+
+/* Responsive */
+
+@media screen and (max-width:768px)  {
+    .header-background {
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width:768px)  {
+    .home .row .col-md-6 img {
+        width: 100%;
+    }
 }

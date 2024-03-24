@@ -21,3 +21,9 @@
 #about .row .col-md-6 .btn {
     color: var(--text-color);
 }
+
+@media screen and (max-width:850px) {
+    #about {
+        height: 140vh;
+    }
+}

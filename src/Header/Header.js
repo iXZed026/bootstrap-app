@@ -23,19 +23,19 @@ export const Header = () => {
   },[])
 
   return (
-    <nav className={scroll ? "navbar navbar-expand-md py-3 fixed-top bg-white shadow" : "navbar navbar-expand-md py-2"}>
-      <div className="container" style={{width:scroll ? "75%" : ""}}>
+    <nav className={scroll ? "navbar navbar-expand-md py-3 fixed-top bg-white shadow" : "navbar navbar-expand-md py-2 container-md"}>
+      <div className="container" >
         <a className='navbar-brand'><IoRocketOutline />Danyal</a>
-        <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-header">
-          <span className="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" id='navbar-toggler' data-bs-toggle="collapse" data-bs-target="#nav-header">
+          <span className="navbar-toggler-icon fs-3"></span>
         </button>
         <div className="collapse navbar-collapse" id="nav-header">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item px-2"><a href="#home" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>خانه</a></li>
-            <li className="nav-item px-2"><a href="#about" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>درباره</a></li>
-            <li className="nav-item px-2"><a href="" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>خدمات</a></li>
-            <li className="nav-item px-2"><a href="" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>رضایت نامه ها</a></li>
+          <ul className="navbar-nav ms-auto text-end" id='nav-link'>
             <li className="nav-item px-2"><a href="#contact" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>تماس</a></li>
+            <li className="nav-item px-2"><a href="" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>رضایت نامه ها</a></li>
+            <li className="nav-item px-2"><a href="" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>خدمات</a></li>
+            <li className="nav-item px-2"><a href="#about" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>درباره</a></li>
+            <li className="nav-item px-2"><a href="#home" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>خانه</a></li>
           </ul>
         </div>
       </div>
