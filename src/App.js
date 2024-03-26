@@ -6,6 +6,7 @@ import { Home } from './Home/Home';
 import { AboutUs } from './AboutUs/AboutUs';
 import { Services } from './Services/Services';
 import CounterProvider from './Provider/counterProvider';
+import { Contact } from './Contact/Contact';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
         </div>
         <AboutUs />
         <Services />
+        <Contact />
       </CounterProvider>
     </>
   )

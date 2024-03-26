@@ -32,9 +32,9 @@ export const Header = () => {
         <div className="collapse navbar-collapse" id="nav-header">
           <ul className="navbar-nav ms-auto text-end" id='nav-link'>
             <li className="nav-item px-2"><a href="#contact" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>تماس</a></li>
-            <li className="nav-item px-2"><a href="" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>رضایت نامه ها</a></li>
+            <li className="nav-item px-2"><a href="#services-card" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>رضایت نامه ها</a></li>
             <li className="nav-item px-2"><a href="#services" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>خدمات</a></li>
-            <li className="nav-item px-2"><a href="#about" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>درب   اره</a></li>
+            <li className="nav-item px-2"><a href="#about" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>درباره</a></li>
             <li className="nav-item px-2"><a href="#home" className="nav-link" style={{color:scroll?"#6C55A3" : ""}}>خانه</a></li>
           </ul>
         </div>
